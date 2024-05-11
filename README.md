@@ -1,6 +1,6 @@
 
 ## Description
-The Parkinson's Disease Detection Project is a machine learning model aimed at detecting the presence of Parkinson's disease based on biomedical voice measurements. The model analyzes various voice characteristics extracted from voice recordings to distinguish between individuals with Parkinson's disease and healthy individuals.
+The Parkinson's Disease Detection Project is a Machine Learning model aimed at detecting the presence of Parkinson's disease based on an Individual's biomedical voice measurements. The model analyzes various voice characteristics extracted from voice recordings to distinguish between individuals with Parkinson's disease and healthy individuals.
 
 ## Purpose
 Parkinson's disease is a neurodegenerative disorder that affects movement, and early detection is crucial for effective management and treatment. This project provides a tool for early detection of Parkinson's disease using non-invasive voice recordings, which can aid in timely diagnosis and intervention.
@@ -9,11 +9,9 @@ Parkinson's disease is a neurodegenerative disorder that affects movement, and e
 To get started with the Parkinson's Disease Detection Project:
 1. Clone this repository to your local machine.
 2. Install the required dependencies listed in the 'requirements.txt' file.
-3. Explore the provided Python scripts or notebooks to train the model, evaluate its performance, and make predictions on new data.
-4. Refer to the README.md file for detailed usage instructions, project overview, and citation information.
+3. Explore the provided python scripts or notebooks 'detector.py' and 'parkinsons_disease_detection_project.ipynb' for model training.
+4. Run the file 'app.py' to create a web app for the Parkinson's Disease Detector using the model trained in 'detector.py'
 
-
-This repository contains the Oxford Parkinson's Disease Detection Dataset, which includes biomedical voice measurements aimed at discriminating between healthy individuals and those with Parkinson's disease.
 
 ## Data Set Characteristics
 - **Type**: Multivariate
